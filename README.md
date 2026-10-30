@@ -12,7 +12,7 @@ An Android developer moving into Data Engineering, learning Python and SQL along
 |---|---|
 | `python/` | Python exercises and notes, by topic (P1-P9) |
 | `sql/` | SQL exercises and notes, by topic (S1-S8) |
-| `cards/` | Flashcards / quick-reference notes |
+| `cards/` | Cards rewritten from memory, one per topic (e.g. `p1-syntax.md`, `s1-select.md`) |
 | `projects/` | Hands-on projects (file processing, CSV/JSON pipeline, API extraction, SQLite analytics, ETL) |
 | `drills/` | Local-only practice drills (gitignored, not committed) |
 
