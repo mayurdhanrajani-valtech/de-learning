@@ -54,10 +54,16 @@ _Last updated: 2026-10-31_
 - Python: `and`/`or` return an operand, not a boolean (`"x" and 5` is `5`)
 - Python: `==` (value) vs `is` (identity); `=` is assignment, not comparison
 - Python: `**` is the power operator (`2 ** 3` = 8); `//` floor division, `%` remainder
+- Python: empty/whitespace string check: `x is None or not x.strip()` (None check first; `x == ""` misses `" "`)
+- Python: missing-value checks use `is None`, not truthiness, when 0 is valid
+- Python: nested same-type quotes in f-strings need 3.12+; use `row['id']` inside `f"..."`
+- Python: don't name variables after built-ins (`id`, `list`, `type`); use `row_id` etc.
 - Python: `continue` skips the rest of the iteration; `for...else` runs only if no `break`
 - Python: missing colon after `elif`/`else`; indentation under `else`
 - SQL: `IS NOT` only works with NULL/TRUE/FALSE; use `<>` or `NOT IN` for values
 - SQL: `ORDER BY` the right column (DISTINCT category, sort by category)
+- SQL: pagination needs a unique tie-breaker in `ORDER BY` (`ORDER BY orderDate DESC, id DESC`)
+- SQL: large `OFFSET` is slow because skipped rows are still read and discarded (cost grows with page number)
 - SQL: `AND` binds tighter than `OR`; use parentheses or `IN`
 - SQL: select aliases can't be used in `WHERE`; strings use single quotes
 
