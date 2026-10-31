@@ -1,6 +1,6 @@
 # Learning Status
 
-_Last updated: 2026-10-29_
+_Last updated: 2026-10-31_
 
 ## Goals
 - Written exam: ~Nov 12, 2026 (Python + SQL, syllabus: TBD)
@@ -51,7 +51,16 @@ _Last updated: 2026-10-29_
 - Python: 1 | SQL: 2 | DE overall: 1
 
 ## Weak spots (recurring mistakes)
-- (add as they appear)
+- Python: `and`/`or` return an operand, not a boolean (`"x" and 5` is `5`)
+- Python: `==` (value) vs `is` (identity); `=` is assignment, not comparison
+- Python: `**` is the power operator (`2 ** 3` = 8); `//` floor division, `%` remainder
+- Python: `continue` skips the rest of the iteration; `for...else` runs only if no `break`
+- Python: missing colon after `elif`/`else`; indentation under `else`
+- SQL: `IS NOT` only works with NULL/TRUE/FALSE; use `<>` or `NOT IN` for values
+- SQL: `ORDER BY` the right column (DISTINCT category, sort by category)
+- SQL: `AND` binds tighter than `OR`; use parentheses or `IN`
+- SQL: select aliases can't be used in `WHERE`; strings use single quotes
 
 ## Log
 - 2026-10-29: Roadmap finalized. Repo created.
+- 2026-10-31: Day 1 closed-book drill done and marked; weak spots logged.
