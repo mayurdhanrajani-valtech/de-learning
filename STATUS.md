@@ -9,11 +9,11 @@ _Last updated: 2026-10-31_
 
 ## Current position
 - Sprint: 1 (written exam)
-- Current phase/chat: Day 1 - P1 Python syntax + S1 SELECT/WHERE/ORDER BY/LIMIT
-- Next up: Day 2 - P2 Functions + S1 CASE/NULLs
+- Current phase/chat: Day 2 - P2 Functions + S1 CASE/NULLs
+- Next up: Day 3 - P3 Collections/comprehensions + S2 Joins
 
 ## Python progress
-- [ ] P1 Syntax, loops, None/truthiness
+- [x] P1 Syntax, loops, None/truthiness
 - [ ] P2 Functions, lambdas, *args/**kwargs
 - [ ] P3 Collections, comprehensions
 - [ ] P4 dict/JSON handling
@@ -24,7 +24,7 @@ _Last updated: 2026-10-31_
 - [ ] P9 Async (last)
 
 ## SQL progress
-- [ ] S1 SELECT, WHERE, ORDER BY, CASE, NULLs
+- [ ] S1 SELECT, WHERE, ORDER BY, CASE, NULLs     <- stays open until Day 2
 - [ ] S2 Joins, set operations
 - [ ] S3 GROUP BY, HAVING, aggregates
 - [ ] S4 CTEs, subqueries, views
@@ -69,4 +69,4 @@ _Last updated: 2026-10-31_
 
 ## Log
 - 2026-10-29: Roadmap finalized. Repo created.
-- 2026-10-31: Day 1 closed-book drill done and marked; weak spots logged.
+- 2026-10-31: Day 1 done. Drill (first attempt, some items helped): Python 2 full + 3 partial of 7, SQL 4 of 6. Both files reviewed, no code changes needed.
